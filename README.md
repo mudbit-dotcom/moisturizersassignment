@@ -6,7 +6,7 @@ The data was found from this dataset from Kaggle via python scraper: https://www
 
 I first had to break down the data from its multiple categories. I decided to intially to filter for product_name, brand_name, ingredients, and price_usd just to get an idea of what I'm working with
 
-I then filtered for moisturizers. Using Claude, I created a dictionary of moisturizer_ingredients by using the defaultdict function. Cladue then cleaned and parse the raw ingredient data by using the split_outside_parens(text) to split commas outside of parenthesis and the clean(ing) function to standarize spelling variations.
+I then filtered for moisturizers. Using Claude to troubleshoot my lines of code, I created a dictionary of moisturizer_ingredients by using the defaultdict function. Cladue then cleaned and parse the raw ingredient data by using the split_outside_parens(text) to split commas outside of parenthesis and the clean(ing) function to standarize spelling variations.
 
 parse_ingredients(raw) returns everything into a clean Python list.
 
